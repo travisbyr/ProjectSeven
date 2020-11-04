@@ -31,7 +31,7 @@ const ctx = canvas.getContext('2d');
 let score = 0 // Setting our score board to zero
 
 const brickRowCount = 9; // Setting 9 bricks on a row
-const brickColumnCount = 5; // Setting 5 bricks on column
+const brickColumnCount = 8; // Setting 5 bricks on column
 
 // Create ball props
 const ball = {
