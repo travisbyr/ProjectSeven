@@ -1,15 +1,26 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>ProjectSeven</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        
-        <script src="index.js" async defer></script>
-    </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Pong</title>
+</head>
+<body>
+  <h1>Paddle Game</h1>
+  <button id="rules-btn" class="btn rules-btn">Rules</button>
+  <div id="rules" class="rules">
+    <h2>How To Play:</h2>
+    <p>
+      Use your right and left keys to move the paddle to bounce the ball up
+      and break the wall.
+    </p>
+    <p>
+      If you miss the ball, your score and the wall will reset.
+    </p>
+    <button id="close-btn" class="btn">Close</button>
+  </div>
+  <canvas id="canvas" width="800" height="600"></canvas>
+  <script src="index.js"></script>
+</body>
 </html>
